@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
-var month = require('./lib/month');
+// var args = process.argv.slice(2);
+// var cal = require('./lib/makecal');
 
-console.log("Hello World!");
+// cal.makeCal(args);

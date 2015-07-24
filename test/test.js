@@ -1,6 +1,6 @@
 var path = require('path');
 var should = require('chai').should();
-var Month = require(path.join(process.cwd(), '/lib/month'));
+// var Month = require(path.join(process.cwd(), '/lib/month'));
 
 // process.cwd()
 // Returns the current working directory of the process.
@@ -15,11 +15,10 @@ var Month = require(path.join(process.cwd(), '/lib/month'));
 
 // testing the 'month' object
 
-describe('month', function() {
-    it('should give the current month', function() {
-      var month = new Month();
-      month.should.be.current;
-  });
-});
-
+// describe('month', function() {
+//     it('should be a number between 3 & 14', function() {
+//       var month = new Month();
+//       month.should.be.current;
+//   });
+// });
 
